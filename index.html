@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Recorder</title>
+    <style>
+        body {
+            background: #f9a640;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        button {
+            background: #764d00;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            transition: all 0.4s;
+            border-radius: 30px;
+            font-weight: 700;
+            margin: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Screen Recorder</h1>
+    <button id="start">Start Recording</button>
+    <button id="stop">Stop Recording</button>
+    <video width="800" height="600"></video>
+    <script type="text/javascript" src="./scripts.js"></script>
+</body>
+
+</html>

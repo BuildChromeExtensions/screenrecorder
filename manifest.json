@@ -1,0 +1,15 @@
+{
+    "name": "Screen Recorder",
+    "version": "1.0.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "desktopCapture",
+        "tabs"
+    ],
+    "action": {
+        "default_title": "Open in Full Screen"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
